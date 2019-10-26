@@ -36,6 +36,7 @@ const Tabs = ({ setComponentToRender }) => {
       >
         Up To Date Stock Balance
       </button>
+      
     </div>
   );
 };

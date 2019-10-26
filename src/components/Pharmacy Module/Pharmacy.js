@@ -5,7 +5,7 @@ import { PharmacyGuide } from "../Guides";
 import PharmacyDashboard from "./PharmacyDashboard";
 import "./pharmacy.css";
 import AddPurchase from "./Purchase Record/AddPurchase";
-
+import SignUp from "./SignUp";
 
 export default class Pharmacy extends Component {
   constructor(props) {
@@ -47,13 +47,17 @@ export default class Pharmacy extends Component {
         <div
           className="col-xs-12 col-s-12 col-md-8 col-lg-6"
           style={{ height: '150vh', border: '1px solid #007bff' }}>
-         
+{/*    
           <PharmacyDashboard
             details={details}
             processing={processing}
             toggleProcessingForm={toggleProcessingForm}
-          />
+          /> 
+          */}
+          <SignUp/>
+         
         </div>
+        
         <div className="col-xs-12 col-md-12 col-md-12 col-lg-3">
           <img src={image} alt="module-pic" className="module-pic" />
         </div>
