@@ -5,8 +5,10 @@ import { PharmacyGuide } from "../Guides";
 import PharmacyDashboard from "./PharmacyDashboard";
 import "./pharmacy.css";
 import AddPurchase from "./Purchase Record/AddPurchase";
+import ServiceLog from './ServiceLog'
 
-import Error_RepairLog from "./Error_RepairsLog";
+// import Error_RepairLog from "./Error_RepairsLog";
+
 // import SignUp from "./SignUp";
 
 export default class Pharmacy extends Component {
@@ -56,7 +58,7 @@ export default class Pharmacy extends Component {
             toggleProcessingForm={toggleProcessingForm}
           /> 
           */}
-          <Error_RepairLog/>
+          <ServiceLog/>
          
         </div>
         
