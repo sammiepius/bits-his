@@ -155,7 +155,7 @@ class SignUp extends Component {
           <CardFooter>
             <center>
               <Button color="primary" outline size="sm">
-                Sign in
+                Register
               </Button>
             </center>
           </CardFooter>

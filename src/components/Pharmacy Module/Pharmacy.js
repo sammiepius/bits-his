@@ -5,7 +5,8 @@ import { PharmacyGuide } from "../Guides";
 import PharmacyDashboard from "./PharmacyDashboard";
 import "./pharmacy.css";
 import AddPurchase from "./Purchase Record/AddPurchase";
-import SignUp from "./SignUp";
+import DieselUsage from './DieselUsage'
+// import SignUp from "./SignUp";
 
 export default class Pharmacy extends Component {
   constructor(props) {
@@ -54,7 +55,7 @@ export default class Pharmacy extends Component {
             toggleProcessingForm={toggleProcessingForm}
           /> 
           */}
-          <SignUp/>
+          <DieselUsage/>
          
         </div>
         
