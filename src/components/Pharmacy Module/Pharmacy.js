@@ -5,7 +5,8 @@ import { PharmacyGuide } from "../Guides";
 import PharmacyDashboard from "./PharmacyDashboard";
 import "./pharmacy.css";
 import AddPurchase from "./Purchase Record/AddPurchase";
-import DieselUsage from './DieselUsage'
+
+import DieselRefuel from "./DieselRefuel";
 // import SignUp from "./SignUp";
 
 export default class Pharmacy extends Component {
@@ -55,7 +56,7 @@ export default class Pharmacy extends Component {
             toggleProcessingForm={toggleProcessingForm}
           /> 
           */}
-          <DieselUsage/>
+          <DieselRefuel/>
          
         </div>
         
